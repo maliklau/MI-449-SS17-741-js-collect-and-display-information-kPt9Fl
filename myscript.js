@@ -7,11 +7,10 @@ var prev = document.getElementById('preview')
 var raw = document.getElementById('raw_html')
 
 function profileUpdate () {
-  var updatestr = '<h1>Hi, my name is ' + firstName.value + ' ' + lastName.value + '!</h1>'
-  '<p>' + info + '</p>' +
-  '<p>' + 'If you\'re interested in a date, you can email me at' +
+  var updatestr = '<h1>Hi, my name is ' + firstName.value + ' ' + lastName.value + '!</h1>' + '<p>' + info.value + '</p>' +
+  '<p>' + 'If you\'re interested in a date, you can email me at ' +
   '<a href="mailto:' + ' ' + emailAddress.value + '" target="_blank">' + emailAddress.value +
-  '</a> or give me a call at' +
+  '</a> or give me a call at ' +
   '<a href="tel:' + telephone.value + ' "target="_blank">' + telephone.value + '</a>.' +
   '</p>'
 
